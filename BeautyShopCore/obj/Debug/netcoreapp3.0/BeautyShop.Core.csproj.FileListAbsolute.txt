@@ -1,0 +1,8 @@
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\bin\Debug\netcoreapp3.0\BeautyShop.Core.deps.json
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\bin\Debug\netcoreapp3.0\BeautyShop.Core.dll
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\bin\Debug\netcoreapp3.0\BeautyShop.Core.pdb
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\obj\Debug\netcoreapp3.0\BeautyShop.Core.csprojAssemblyReference.cache
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\obj\Debug\netcoreapp3.0\BeautyShop.Core.AssemblyInfoInputs.cache
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\obj\Debug\netcoreapp3.0\BeautyShop.Core.AssemblyInfo.cs
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\obj\Debug\netcoreapp3.0\BeautyShop.Core.dll
+C:\Users\Goran\Source\Repos\BeautyShop\BeautyShopCore\obj\Debug\netcoreapp3.0\BeautyShop.Core.pdb

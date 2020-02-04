@@ -1,0 +1,37 @@
+﻿@page "{Id:int}"
+@model BeautyShop.VisitDeleteModel
+@{
+    ViewData["Title"] = "VisitDelete";
+}
+
+<h3>Are you sure you want to delete Customer?</h3>
+
+<div class="row">
+    <div class="col-5">
+        <table class="table">
+            <tr>
+                <td class="font-weight-bold">
+                    Customer
+                </td>
+                <td>
+                    @Model.Visit.Customer.FirstName @Model.Visit.Customer.LastName
+                </td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">
+                    Total Expences
+                </td>
+                <td>
+                    @Model.Visit.TotalExpences()
+                </td>
+            </tr>
+        </table>
+        <form method="post">
+            <input type="hidden" asp-for="Visit.Id" />
+            <button class="btn btn-danger" type="submit">Delete</button>
+            <a class="btn btn-primary" asp-page="./List">Back to List</a>
+        </form>
+
+    </div>
+
+</div>

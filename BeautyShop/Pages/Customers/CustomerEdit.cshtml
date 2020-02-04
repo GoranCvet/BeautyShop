@@ -1,0 +1,33 @@
+﻿@page "{Id:int?}"
+@model BeautyShop.Pages.Customers.CustomerEditModel
+@{
+	ViewData["Title"] = "CustomerEdit";
+	var EditUpdate = Model.Customer.Id > 0 ? "Edit" : "Create";
+}
+
+<h2>@EditUpdate Customer</h2>
+<form method="post">
+	<input type="hidden" asp-for="Customer.Id" />
+	<div class="form-row">
+		<div class="form-group col-sm-4">
+			<label asp-for="Customer.FirstName"></label>
+			<input class="form-control" asp-for="Customer.FirstName" />
+			<span class="text-danger" asp-validation-for="Customer.FirstName"></span>
+		</div>
+		<div class="form-group col-sm-4">
+			<label asp-for="Customer.LastName"></label>
+			<input class="form-control" asp-for="Customer.LastName" />
+			<span class="text-danger" asp-validation-for="Customer.LastName"></span>
+		</div>
+		<div class="form-group col-sm-6">
+			<label asp-for="Customer.MembershipId"></label>
+			<select class="form-control" asp-for="Customer.MembershipId" asp-items="@Model.MemberShips">
+				<option value="">Pick a Membership</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary">Save</button>
+		<a class="btn btn-primary" asp-page="./CustomerList">To Customers</a>
+	</div>
+</form>

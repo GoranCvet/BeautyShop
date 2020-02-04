@@ -1,0 +1,11 @@
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\bin\Debug\netcoreapp3.0\BeautyShopData.deps.json
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\bin\Debug\netcoreapp3.0\BeautyShopData.dll
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\bin\Debug\netcoreapp3.0\BeautyShopData.pdb
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\bin\Debug\netcoreapp3.0\BeautyShopCore.dll
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\bin\Debug\netcoreapp3.0\BeautyShopCore.pdb
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.csprojAssemblyReference.cache
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.AssemblyInfoInputs.cache
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.AssemblyInfo.cs
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.csproj.CopyComplete
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.dll
+C:\Users\Goran\Desktop\BeautyShop-master\BeautyShopData\obj\Debug\netcoreapp3.0\BeautyShopData.pdb

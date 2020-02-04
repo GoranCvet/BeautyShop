@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "BeautyShop.Data/1.0.0": {
+        "dependencies": {
+          "BeautyShop.Core": "1.0.0"
+        },
+        "runtime": {
+          "BeautyShop.Data.dll": {}
+        }
+      },
+      "BeautyShop.Core/1.0.0": {
+        "runtime": {
+          "BeautyShop.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BeautyShop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BeautyShop.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

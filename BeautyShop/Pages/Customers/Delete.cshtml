@@ -1,0 +1,38 @@
+﻿@page  "{Id:int}"
+@model BeautyShop.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<h3>Are you sure you want to delete Customer?</h3>
+
+<div class="row">
+    <div class="col-5">
+        <table class="table">
+            <tr>
+                <td class="font-weight-bold">
+                    First Name
+                </td>
+                <td>
+                    @Model.Customer.FirstName
+                </td>
+            </tr>
+            <tr>
+                <td class="font-weight-bold">
+                    Last Name
+                </td>
+                <td>
+                    @Model.Customer.LastName
+                </td>
+            </tr>
+        </table>
+        <form method="post">
+            <input type="hidden" asp-for="Customer.Id" />
+            <button class="btn btn-danger" type="submit">Delete</button>
+            <a class="btn btn-primary" asp-page="./CustomerList">Back to List</a>
+        </form>
+
+    </div>
+
+</div>
